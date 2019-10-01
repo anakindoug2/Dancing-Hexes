@@ -25,7 +25,7 @@ function start() {
       var wid = style.getPropertyValue('width');
       var hei = style.getPropertyValue('height');
 
-      pos_top = pos_top.substring(0, pos_top.length - 2);                                            // removes the 'px' from the size value returned and convert to a number
+      pos_top = pos_top.substring(0, pos_top.length - 2);                                            
       pos_left = pos_left.substring(0, pos_left.length - 2);
       wid = wid.substring(0, wid.length - 2);
       hei = hei.substring(0, hei.length - 2);
