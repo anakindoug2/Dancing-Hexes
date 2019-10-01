@@ -1,6 +1,6 @@
 .body{
 	background-color: #1b1b1b ;
-	color:white;
+	color:black;
 	width:100%;
 	position:absolute;
 }
@@ -11,7 +11,7 @@
 }
 
 .img-floater{
-	position:absolute;
+	position:fixed;
 	animation:spin 4s linear infinite;
 }
 .img-floater img {
